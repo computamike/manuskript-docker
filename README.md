@@ -37,3 +37,4 @@ The use of x11 forwarding means that manuskript could just be installed directly
 
 ## Known Issues
 - Executing through a powershell terminal won't work, as there is no x11 server environment settings to pass through.
+- Hyperlinks in the "about" pane don't work- as there is no web browser to render them - It should be possible to install firefox - but installing firefox would reuqire a snap install - which isn't supported - as the underlying Linux OS (WSL) doesn't use systemd - Aparently it can be enabled - but at this stage I had what I think was a working instance.
